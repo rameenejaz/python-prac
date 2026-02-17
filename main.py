@@ -32,23 +32,23 @@
 #     second=next;
 
 #lab 1, lab task 4
-# mars=int(input("enter your marks:"));
-# def grade(marks):
-#     if (marks<50):
-#         print("grade: F");
-#     elif (marks>=50 and marks<60):
-#         print("grade: D");
-#     elif (marks>=60 and marks<70):
-#         print("grade: C");
-#     elif (marks>=70 and marks<80):
-#         print("grade: B");
-#     elif (marks>=80 and marks<90):
-#         print("grade: A");
-#     elif(marks>=90 and marks<=100):
-#         print("grade: A+");
-#     else:
-#         print("invalid marks");
-# grade(mars);    
+mars=int(input("enter your marks:"));
+def grade(marks):
+    if (marks<50):
+        print("grade: F");
+    elif (marks>=50 and marks<60):
+        print("grade: D");
+    elif (marks>=60 and marks<70):
+        print("grade: C");
+    elif (marks>=70 and marks<80):
+        print("grade: B");
+    elif (marks>=80 and marks<90):
+        print("grade: A");
+    elif(marks>=90 and marks<=100):
+        print("grade: A+");
+    else:
+        print("invalid marks");
+grade(mars);    
 
 #lab 1, lab task 5
 number=int(input("enter a number: "));
