@@ -8,28 +8,28 @@
 # print("reverse of the number is: ",reverse);
 
 #lab 1, lab task 2
-# n=int (input("how many numbers you want to enter: "));
-# even_sum=0;
-# odd_sum=0;
-# for i in range(n):
-#     num=int(input("enter a number: "));
-#     if(num%2==0):
-#         even_sum+=num;
-#     else:
-#         odd_sum+=num;
-# print("sum of even numbers is: ",even_sum);
-# print("sum of odd numbers is: ",odd_sum);
+n=int (input("how many numbers you want to enter: "));
+even_sum=0;
+odd_sum=0;
+for i in range(n):
+    num=int(input("enter a number: "));
+    if(num%2==0):
+        even_sum+=num;
+    else:
+        odd_sum+=num;
+print("sum of even numbers is: ",even_sum);
+print("sum of odd numbers is: ",odd_sum);
 
 #lab 1, lab task 3
-# terms=int(input("how many terms you want to print: "));
-# first=0;
-# second=1;
-# print("fibonacci series: ",end="");
-# for i in range(terms):
-#     print(first,end=" ");
-#     next=first+second;
-#     first=second;
-#     second=next;
+terms=int(input("how many terms you want to print: "));
+first=0;
+second=1;
+print("fibonacci series: ",end="");
+for i in range(terms):
+    print(first,end=" ");
+    next=first+second;
+    first=second;
+    second=next;
 
 #lab 1, lab task 4
 mars=int(input("enter your marks:"));
