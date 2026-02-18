@@ -30,14 +30,14 @@
 # print("Largest Element", max(merged_list));
 
 #lab task 3
-# import math
-# h=0.001
-# x=-math.pi;
-# while x<=math.pi:
-#     derivative=(math.sin(x+h)-math.sin(x))/h;
-#     actual=math.cos(x);
-#     print("x: ", x, "derivative: ", derivative, "actual: ", actual);
-#     x+=0.1;
+import math
+h=0.001
+x=-math.pi;
+while x<=math.pi:
+    derivative=(math.sin(x+h)-math.sin(x))/h;
+    actual=math.cos(x);
+    print("x: ", x, "derivative: ", derivative, "actual: ", actual);
+    x+=0.1;
 
 
 #lab task 4:
