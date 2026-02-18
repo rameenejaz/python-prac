@@ -1,17 +1,17 @@
 #lab task 1
 
-# list1=[];
-# list2=[];
-# n1=int(input("how many elements you want to enter in list 1: "));
-# for i in range(n1):
-#     num=int(input("enter a number:"))
-#     list1.append(num);
-# n2=int(input("how many elements you want to enter in list 2: "));
-# for i in range(n2):
-#     num=int(input("enter a number:"))
-#     list2.append(num);
-# merged_list=list1+list2;
-# print("merged list: ", merged_list);
+list1=[];
+list2=[];
+n1=int(input("how many elements you want to enter in list 1: "));
+for i in range(n1):
+    num=int(input("enter a number:"))
+    list1.append(num);
+n2=int(input("how many elements you want to enter in list 2: "));
+for i in range(n2):
+    num=int(input("enter a number:"))
+    list2.append(num);
+merged_list=list1+list2;
+print("merged list: ", merged_list);
 
 
 #lab task 2
