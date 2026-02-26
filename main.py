@@ -5,7 +5,7 @@ while(num!=0):
     digit=num%10;
     reverse=reverse*10+digit;
     num=num//10;
-print("reverse of the number is: ",reverse);
+print("reverse of the number is:  ",reverse);
 
 #lab 1, lab task 2
 n=int (input("how many numbers you want to enter: "));
