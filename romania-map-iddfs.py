@@ -26,6 +26,7 @@ def depth_limited_dfs(graph, current, goal, depth, visited):
     if current == goal:
         print("Goal found")
         return True
+    
     visited.add(current)
     for child in graph[current]:
         if child not in visited:
