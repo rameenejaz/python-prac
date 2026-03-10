@@ -18,6 +18,7 @@ graph = {
     'Vaslui':['Urziceni','Iasi'],
     'Iasi':['Vaslui','Neamt'],
     'Neamt':['Iasi'],
+    
 }
 def depth_limited_dfs(graph, current, goal, depth, visited):
     if depth < 0:
