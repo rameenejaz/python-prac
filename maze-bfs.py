@@ -66,7 +66,7 @@ def bfs(graph, start_node, end_node):
     return solution
 
 start_state = "A"
-goal_state = "A"
+goal_state = "Z"
 solution = bfs(graphMaze, start_state, goal_state)
 
 print("Solution:", solution)
